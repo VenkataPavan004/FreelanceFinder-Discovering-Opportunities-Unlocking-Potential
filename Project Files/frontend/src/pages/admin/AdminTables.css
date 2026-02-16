@@ -1,0 +1,31 @@
+.admin-table-page {
+  padding: 90px 6% 40px;
+  background: #f4f6f8;
+  min-height: 100vh;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.admin-table th {
+  background: #f1f3f5;
+  font-weight: 600;
+}
+
+.admin-table tr:not(:last-child) {
+  border-bottom: 1px solid #e9ecef;
+}

@@ -1,0 +1,38 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+
+  background: #111827;
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar-brand {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.sidebar a {
+  color: #d1d5db;
+  text-decoration: none;
+  padding: 10px 8px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.sidebar a:hover {
+  background: #1f2933;
+  color: #ffffff;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+}

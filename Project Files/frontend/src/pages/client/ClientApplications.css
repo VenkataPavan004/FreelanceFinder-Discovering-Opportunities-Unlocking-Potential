@@ -1,0 +1,63 @@
+.client-applications-page {
+  padding: 120px 5%;
+  min-height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+}
+
+.client-applications-page h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.applications-grid {
+  display: grid;
+  gap: 25px;
+}
+
+.application-card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+  border-radius: 16px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+/* Project title */
+.application-card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+/* Details */
+.application-card p {
+  margin: 6px 0;
+  font-size: 15px;
+  color: #e0e0e0;
+}
+
+/* Status highlight */
+.application-card p:last-child {
+  font-weight: 600;
+  color: #4cafef;
+}
+
+/* Accept Button */
+.accept-btn {
+  margin-top: 18px;
+  padding: 8px 18px;
+  border-radius: 25px;
+  border: 1px solid #4cafef;
+  background: transparent;
+  color: #4cafef;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.accept-btn:hover {
+  background: #4cafef;
+  color: #ffffff;
+}

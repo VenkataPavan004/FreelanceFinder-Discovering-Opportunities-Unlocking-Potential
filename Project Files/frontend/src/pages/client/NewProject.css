@@ -1,0 +1,38 @@
+.new-project-page {
+  padding: 90px 6% 40px;
+  background: #f4f6f8;
+  min-height: 100vh;
+}
+
+.new-project-form {
+  background: #ffffff;
+  max-width: 420px;
+  padding: 22px;
+  border-radius: 10px;
+
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.new-project-form input,
+.new-project-form textarea {
+  width: 100%;
+  padding: 9px 10px;
+  margin-bottom: 12px;
+
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+}
+
+.new-project-form button {
+  width: 100%;
+  padding: 10px;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.new-project-form button:hover {
+  background: #0b5ed7;
+}

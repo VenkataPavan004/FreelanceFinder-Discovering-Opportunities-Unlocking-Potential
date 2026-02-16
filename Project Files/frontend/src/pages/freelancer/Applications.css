@@ -1,0 +1,68 @@
+/* PAGE */
+.applications-page {
+  padding: 90px 6% 40px;
+  background: #f4f6f8;
+  min-height: 100vh;
+}
+
+/* TITLE */
+.page-title {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+/* LIST */
+.applications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* CARD */
+.application-card {
+  background: #ffffff;
+  padding: 18px 20px;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* TEXT */
+.application-card h4 {
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+
+.application-card p {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+/* STATUS */
+.status {
+  padding: 6px 14px;
+  border-radius: 14px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* STATUS COLORS */
+.status.pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.status.accepted {
+  background: #e6f4ea;
+  color: #1e7e34;
+}
+
+.status.rejected {
+  background: #fdecea;
+  color: #c82333;
+}

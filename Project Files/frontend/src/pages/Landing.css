@@ -1,0 +1,82 @@
+/* FULL RESET */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* HERO MUST OWN THE SCREEN */
+.hero {
+  height: 100vh;
+  width: 100vw;
+
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d")
+      center / cover no-repeat;
+
+  display: flex;
+  align-items: center;
+}
+
+
+/* CONTENT */
+.hero-inner {
+  max-width: 900px;
+  padding-left: 8%;
+  color: white;
+}
+
+.hero-inner {
+  padding-left: 6%;
+  color: white;
+}
+
+.hero-inner p {
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+
+/* TEXT */
+.hero-inner h1 {
+  font-size: clamp(2.5rem, 5vw, 4.2rem);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-inner p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 650px;
+}
+
+/* BUTTONS */
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero-inner {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.hero-inner {
+  padding-left: 6%;
+}
+
+@media (max-width: 768px) {
+  .hero-inner {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

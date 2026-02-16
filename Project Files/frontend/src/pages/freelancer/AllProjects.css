@@ -1,0 +1,175 @@
+/* PAGE */
+.projects-page {
+  padding: 90px 6% 40px;
+  background: #f4f6f8;
+  min-height: 100vh;
+}
+
+/* TITLE */
+.page-title {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+/* GRID */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+}
+
+/* CARD */
+.project-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* TEXT */
+.project-box h4 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.project-box p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 14px;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.skills span {
+  background: #eef2ff;
+  color: #3747ff;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+}
+
+/* FOOTER */
+.project-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.budget {
+  font-weight: 600;
+  color: #111;
+}
+
+.project-footer button {
+  background: #0d6efd;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.project-footer button:hover {
+  background: #0b5ed7;
+}
+
+/* MODAL OVERLAY */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 2000;
+}
+
+/* MODAL BOX */
+.bid-modal {
+  background: #ffffff;
+  width: 100%;
+  max-width: 380px;
+  padding: 22px 20px;
+  border-radius: 10px;
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* TITLE */
+.bid-modal h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+/* PROJECT NAME */
+.modal-project {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+/* INPUTS */
+.bid-modal input,
+.bid-modal textarea {
+  width: 100%;
+  padding: 9px 10px;
+  margin-bottom: 12px;
+
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.bid-modal input:focus,
+.bid-modal textarea:focus {
+  outline: none;
+  border-color: #0d6efd;
+}
+
+/* ACTIONS */
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* BUTTONS */
+.cancel-btn {
+  flex: 1;
+  background: #e0e0e0;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  flex: 1;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #0b5ed7;
+}

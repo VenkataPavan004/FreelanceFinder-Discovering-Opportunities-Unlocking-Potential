@@ -1,0 +1,54 @@
+/* PAGE BACKGROUND */
+.projects-page {
+  min-height: 100vh;
+  padding: 120px 80px;
+  background: linear-gradient(to right, #0f172a, #1e293b, #164e63);
+  color: white;
+}
+
+/* PAGE TITLE */
+.projects-title {
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+/* PROJECT CARD */
+.project-card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px 40px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Project Title */
+.project-card h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Project Details */
+.project-details {
+  display: flex;
+  gap: 60px;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* Status Styling */
+.project-status {
+  color: #38bdf8;   /* light blue */
+  font-weight: 600;
+}

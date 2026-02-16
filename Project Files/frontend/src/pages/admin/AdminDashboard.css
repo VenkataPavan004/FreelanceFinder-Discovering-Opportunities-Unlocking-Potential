@@ -1,0 +1,35 @@
+.admin-dashboard {
+  padding: 90px 6% 40px;
+  background: #f4f6f8;
+  min-height: 100vh;
+}
+
+.page-title {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.admin-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.admin-stat-card {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.admin-stat-card h4 {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.admin-stat-card p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
